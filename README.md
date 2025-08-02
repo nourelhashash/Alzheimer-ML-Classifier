@@ -46,12 +46,18 @@ The project follows a structured machine learning pipeline:
 
 ## 🏆 Performance Results
 
-| Model              | F1-Score (%) | Accuracy (%) |
-|--------------------|--------------|--------------|
-| XGBoost            | 92.62        | 94.88        |
-| Random Forest      | 92.26        | 94.65        |
-| Stacking Classifier| 91.75        | 94.19        |
-| Bagging Classifier | 90.34        | 93.49        |
+| Model                         | F1-Score (%) | Accuracy (%) |
+|------------------------------|--------------|---------------|
+| XGBoost                      | 92.62        | 94.88         |
+| Random Forest                | 92.26        | 94.65         |
+| Stacking Classifier          | 91.75        | 94.19         |
+| Bagging Classifier           | 90.34        | 93.49         |
+| Decision Tree                | 90.20        | 93.02         |
+| AdaBoost                     | 89.19        | 92.56         |
+| Support Vector Machine (SVM) | 74.42        | 82.09         |
+| Logistic Regression          | 73.68        | 81.40         |
+| Gaussian Naive Bayes         | 68.39        | 77.21         |
+| K-Nearest Neighbors (KNN)    | 57.25        | 74.65         |
 
 **XGBoost** emerged as the top-performing model, showcasing the effectiveness of ensemble methods.
 
